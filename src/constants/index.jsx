@@ -11,7 +11,7 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 import employee1 from "../assets/employees-pictures/profile-01.jpeg";
-import employee2 from "../assets/employees-pictures/002.jpeg";
+import employee2 from "../assets/employees-pictures/profile-02.jpeg";
 import employee3 from "../assets/employees-pictures/profile-03.jpeg";
 import employee4 from "../assets/employees-pictures/profile-04.jpeg";
 import employee5 from "../assets/employees-pictures/profile-05.jpeg";
@@ -157,7 +157,7 @@ export const employees = [
   {
     name: "Linda Morales",
     position: "Frontend Developer & UI/UX",
-    image: fallbackImage,
+    image: employee2,
     url: "https://github.com/",
   },
   {
