@@ -10,11 +10,13 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-import employee1 from "../assets/employees-pictures/001.jpeg";
+import employee1 from "../assets/employees-pictures/profile-01.jpeg";
 import employee2 from "../assets/employees-pictures/002.jpeg";
-import employee3 from "../assets/employees-pictures/003.jpeg";
-import employee4 from "../assets/employees-pictures/004.jpeg";
-import employee5 from "../assets/employees-pictures/005.jpeg";
+import employee3 from "../assets/employees-pictures/profile-03.jpeg";
+import employee4 from "../assets/employees-pictures/profile-04.jpeg";
+import employee5 from "../assets/employees-pictures/profile-05.jpeg";
+
+import fallbackImage from "../assets/employees-pictures/fallback-user-image.webp";
 
 export const navItems = [
   { label: "Inicio", href: "#" },
@@ -153,27 +155,27 @@ export const employees = [
     url: "https://github.com/ErikssonHerlo",
   },
   {
-    name: "Willians Orozco",
+    name: "Linda Morales",
     position: "Frontend Developer & UI/UX",
-    image: employee2,
-    url: "https://github.com/WilliansAlb",
+    image: fallbackImage,
+    url: "https://github.com/",
   },
   {
-    name: "Leonidas Hernández",
+    name: "James Gramajo",
     position: "Software Architect & Database Administrator",
     image: employee3,
-    url: "https://github.com/l2ashdz",
+    url: "https://github.com/",
   },
   {
-    name: "William Umaña",
+    name: "Bryan de León",
     position: "Leader Finance, Security Architect & Backend Developer",
     image: employee4,
-    url: "https://github.com/waliray123",
+    url: "https://github.com/",
   },
   {
-    name: "Helmuth Luther",
+    name: "Jonathan Azurdia",
     position: "SCRUM Master & Project Manager",
     image: employee5,
-    url: "https://github.com/AlexanderLuther",
+    url: "https://github.com/",
   },
 ];
